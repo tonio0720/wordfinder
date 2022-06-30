@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    margin: 4px;
+    border: 2px solid #86888a;
+    vertical-align: top;
+}
+
+.blockText {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.key {
+    width: 40px;
+    height: 60px;
+    display: inline-flex;
+    margin: 4px;
+    background: #d3d6da;
+    border: 2px solid #d3d6da;
+    vertical-align: top;
+}
+
+.key > span {
+    margin: auto;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.keyboard {
+    margin-top: 40px;
+}
